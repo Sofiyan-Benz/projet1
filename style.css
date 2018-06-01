@@ -1,0 +1,99 @@
+body
+{
+	background-image: url("images/slider/bg1.jpg"); /*ceci est limge du font */
+		background-attachment: fixed;
+
+	background-repeat: no-repeat;
+	color: white;
+
+}
+
+
+.titre
+{		font-family: 'FontAwesome';
+	color: #5DBCD2 ;
+}
+
+.text-dacceuille
+{
+
+position: absolute;
+top: 120px;
+right: 60%;
+
+}
+p {
+	    font-family:  sans-serif;
+}
+
+
+button
+{
+
+	font-size: 17px;
+	font-family: sans-serif;
+	padding: 10px;
+	border:none;
+	background-color: #5DBCD2 ;
+	color: #fff;
+	position: absolute;
+	top: 18em;
+	right: 73em;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/FontAwesome.otf') format('otf'),
+		url('fonts/fontawesome-webfont.eot') format('eot'),
+		url('fonts/fontawesome-webfont.ttf') format('ttf'),
+		url('fonts/fontawesome-webfont.woff') format('woff');
+		}
+
+@font-face {
+	font-family: 'Roboto-ThinItalic';
+	src: url('fonts/Roboto-ThinItalic.ttf') format('ttf');
+}
+@font-face { 
+	font-family: 'glyphicons-halflings-regular';
+	src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
+		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
+		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+		url('fonts/glyphicons-halflings-regular.woff') format('woff');
+	}*/
