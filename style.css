@@ -1,8 +1,29 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/FontAwesome.otf') format('otf'),
+		url('fonts/fontawesome-webfont.eot') format('eot'),
+		url('fonts/fontawesome-webfont.ttf') format('ttf'),
+		url('fonts/fontawesome-webfont.woff') format('woff'),
+		url('fonts/fontawesome-webfont.svg') format('svg');
+		
+		}
+
+@font-face {
+	font-family: 'Roboto-ThinItalic';
+	src: url('fonts/Roboto-ThinItalic.ttf') format('ttf');
+}
+@font-face { 
+	font-family: 'glyphicons-halflings-regular';
+	src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
+		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
+		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+		url('fonts/glyphicons-halflings-regular.woff') format('woff');
+	}
 body
 {
+	font-family: 'FontAwesome';
 	background-image: url("images/slider/bg1.jpg"); /*ceci est limge du font */
-		background-attachment: fixed;
-
+	background-position: 00px 110px;
 	background-repeat: no-repeat;
 	color: white;
 
@@ -43,57 +64,63 @@ button
 	cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@font-face {
-	font-family: 'FontAwesome';
-	src: url('fonts/FontAwesome.otf') format('otf'),
-		url('fonts/fontawesome-webfont.eot') format('eot'),
-		url('fonts/fontawesome-webfont.ttf') format('ttf'),
-		url('fonts/fontawesome-webfont.woff') format('woff');
-		}
-
-@font-face {
-	font-family: 'Roboto-ThinItalic';
-	src: url('fonts/Roboto-ThinItalic.ttf') format('ttf');
+.nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
-@font-face { 
-	font-family: 'glyphicons-halflings-regular';
-	src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
-		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
-		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
-		url('fonts/glyphicons-halflings-regular.woff') format('woff');
-	}*/
+
+nav a 
+{ 
+padding: 1em;
+display: block;
+text-align: center;
+text-decoration: none;
+color: black;
+
+ }
+
+.nav .menu 
+
+{
+	position: absolute;
+	top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 85em;
+
+
+@media(max-width: 450px)
+	{
+		flex-flow: column wrap;
+	}
+
+}
+#logo
+{
+
+	position: absolute;
+	top: 20px;
+	left: 11em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
