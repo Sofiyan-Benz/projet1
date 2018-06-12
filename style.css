@@ -19,33 +19,80 @@
 		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
 		url('fonts/glyphicons-halflings-regular.woff') format('woff');
 	}
+
+body, html 
+	{
+	margin:0;
+	padding: 0;
+	}
+
 body
 {
 	font-family: 'FontAwesome';
 	background-image: url("images/slider/bg1.jpg"); /*ceci est limge du font */
-	background-position: 00px 110px;
+	background-position: 00px 150px;
 	background-repeat: no-repeat;
-	color: white;
+}
+
+header
+
+{
+	
+	width: 95.8em;
+	height:9.3em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
 }
 
 
-.titre
-{		font-family: 'FontAwesome';
-	color: #5DBCD2 ;
+header .nav
+
+{
+	
+	align-items: center;
+	margin-right: 100px;
+	width: 30em;
 }
 
-.text-dacceuille
+.nav ul {
+
+	list-style: none;
+}
+
+.nav a 
 {
 
-position: absolute;
-top: 120px;
-right: 60%;
+	color: black;
+	text-decoration: none;
 
 }
-p {
-	    font-family:  sans-serif;
+
+.nav .menu
+{
+	display: flex; 
+  	justify-content: space-around;
+
+
+  
 }
+
+header #logo
+{
+	padding-left: 10em;
+}
+
+section
+{
+	/*border: 2px black solid; */
+ color: #ffffff;
+display: flex;
+flex-direction: column;
+margin: 10em 00em 00em 10em;
+width: 50em;
+}
+
 
 
 button
@@ -57,70 +104,89 @@ button
 	border:none;
 	background-color: #5DBCD2 ;
 	color: #fff;
-	position: absolute;
-	top: 18em;
-	right: 73em;
 	border-radius: 2px;
 	cursor: pointer;
+
 }
 
-.nav ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+.titre
+{		font-family: 'FontAwesome';
+	color: #5DBCD2 ;
 }
 
-nav a 
-{ 
-padding: 1em;
-display: block;
-text-align: center;
-text-decoration: none;
-color: black;
+p {
+	    font-family:  sans-serif;
+}
 
- }
-
-.nav .menu 
-
+#services
 {
-	position: absolute;
-	top: 25px;
+		
+		color: black;
+		font-family: 'FontAwesome';
+		margin-top: 17em;
+		
+} 
+
+#services h1
+{
+	
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	width: 85em;
-
-
-@media(max-width: 450px)
-	{
-		flex-flow: column wrap;
-	}
+	justify-content: center;
 
 }
-#logo
+
+#services p
 {
 
-	position: absolute;
-	top: 20px;
-	left: 11em;
+		display: flex;
+	justify-content: center;
+	margin-left: 5em;
 }
 
+.ux 
+{
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10em;
+}
+
+.coco
+{
+	color: #5DBCD2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
 
+}
+
+.coco i 
+{
+
+	border: 2px #5DBCD2 solid;
+	border-radius: 50%;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+}
+
+.cercle
+{
+	background-color: #5DBCD2;
+	width: 3px;
+	border-radius: 50%;
+	padding: 7px 5px 7px 7px;
+	display: flex;
+	justify-content: space-between;
 
 
+}
 
+#design i
+{
+	color: #5DBCD2;
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
