@@ -29,9 +29,7 @@ body, html
 body
 {
 	font-family: 'FontAwesome';
-	background-image: url("images/slider/bg1.jpg"); /*ceci est limge du font */
-	background-position: 00% 10%;
-	background-repeat: no-repeat;
+
 }
 
 header
@@ -102,7 +100,7 @@ button
 	font-family: sans-serif;
 	padding: 10px;
 	border:none;
-	background-color: #5DBCD2 ;
+	background-color: #5DBCD2;
 	color: #fff;
 	border-radius: 2px;
 	cursor: pointer;
@@ -212,21 +210,85 @@ margin-right: 5%;
 
 }
 
+
+
 #contact
 {
-
-	background-color: #e6e6e6;
-	width: 20%;
-	height: 70%;
+	font-family: 'FontAwesome';	
+	background-color: #E7F1FC;
+	width: 22%;
+	height: 80%;
 	position: absolute;
-	right: 5%;
+	right: 4%;
 	margin-top: 8%;
-
-
+	opacity:0.8;
 	
 }
 
+#sas
+{
+	margin-left: 10%;
 
+}
+
+#sas p 
+{
+	position: relative;
+	bottom: 10px;
+	opacity: 1;
+}
+
+#opacity
+{
+
+	opacity: 1;
+}
+
+form
+{
+
+	padding: 00% 5% 00% 9% ;
+	position: relative;
+	bottom: 15px;
+	opacity: 1;
+
+}
+
+input 
+{
+	padding: 7px;
+	margin-top: 5%;
+	width: 90%;
+	background-color: #ffffff;
+	opacity: 1;
+
+}
+
+textarea
+{
+	margin-top: 5%;
+	width: 94%;
+	height: 16em;
+	background-color: #ffffff;
+	opacity: 1;
+
+}
+
+#send
+{
+	width: 50%;
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 10px;
+	border:none;
+	background-color: #5DBCD2;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+	box-shadow: 0px 3px 3px   #32aecd;
+	opacity: 1;
+	
+}
 
 #map
 {
