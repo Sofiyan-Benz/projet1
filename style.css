@@ -30,7 +30,7 @@ body
 {
 	font-family: 'FontAwesome';
 	background-image: url("images/slider/bg1.jpg"); /*ceci est limge du font */
-	background-position: 00px 150px;
+	background-position: 00% 10%;
 	background-repeat: no-repeat;
 }
 
@@ -38,8 +38,8 @@ header
 
 {
 	
-	width: 95.8em;
-	height:9.3em;
+	width: 95%;
+	height: 9em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -52,8 +52,8 @@ header .nav
 {
 	
 	align-items: center;
-	margin-right: 100px;
-	width: 30em;
+	margin-right: 5%;
+	width: 35%;
 }
 
 .nav ul {
@@ -80,7 +80,7 @@ header .nav
 
 header #logo
 {
-	padding-left: 10em;
+	padding-left: 10%;
 }
 
 section
@@ -89,8 +89,8 @@ section
  color: #ffffff;
 display: flex;
 flex-direction: column;
-margin: 10em 00em 00em 10em;
-width: 50em;
+margin: 10% 00em 00em 10em;
+width: 50%;
 }
 
 
@@ -189,4 +189,50 @@ p {
 }
 
 
+.photo
+{
+display: flex;
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+.picture
+{
+	padding: 1%;
+}
+
+.photo2
+{
+display: flex;
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+#contact
+{
+
+	background-color: #e6e6e6;
+	width: 20%;
+	height: 70%;
+	position: absolute;
+	right: 5%;
+	margin-top: 8%;
+
+
+	
+}
+
+
+
+#map
+{
+	
+	width: 100%;
+
+	margin-top: 5%;
+}
 
