@@ -1,46 +1,53 @@
 @font-face {
-	font-family: 'FontAwesome';
-	src: url('fonts/FontAwesome.otf') format('otf'),
-		url('fonts/fontawesome-webfont.eot') format('eot'),
-		url('fonts/fontawesome-webfont.ttf') format('ttf'),
-		url('fonts/fontawesome-webfont.woff') format('woff'),
-		url('fonts/fontawesome-webfont.svg') format('svg');
-		
-		}
+ font-family: 'FontAwesome';
+ src: url('fonts/FontAwesome.otf') format('otf'),
+  url('fonts/fontawesome-webfont.eot') format('eot'),
+  url('fonts/fontawesome-webfont.ttf') format('ttf'),
+  url('fonts/fontawesome-webfont.woff') format('woff'),
+  url('fonts/fontawesome-webfont.svg') format('svg');
+  
+  }
 
 @font-face {
-	font-family: 'Roboto-ThinItalic';
-	src: url('fonts/Roboto-ThinItalic.ttf') format('ttf');
+ font-family: 'Roboto-ThinItalic';
+ src: url('fonts/Roboto-ThinItalic.ttf') format('ttf');
 }
 @font-face { 
-	font-family: 'glyphicons-halflings-regular';
-	src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
-		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
-		url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
-		url('fonts/glyphicons-halflings-regular.woff') format('woff');
-	}
+ font-family: 'glyphicons-halflings-regular';
+ src: url('fonts/glyphicons-halflings-regular.eot') format('eot'),
+  url('fonts/glyphicons-halflings-regular.svg') format('svg'),
+  url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
+  url('fonts/glyphicons-halflings-regular.woff') format('woff');
+ }
 
 body, html 
-	{
-	margin:0;
-	padding: 0;
-	}
+ {
+ margin:0;
+ padding: 0;
+ }
 
 body
 {
-	font-family: 'FontAwesome';
+ font-family: 'FontAwesome';
+
+}
+
+.slider
+
+{
+	
 
 }
 
 header
 
 {
-	
-	width: 95%;
-	height: 9em;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+ 
+ width: 95%;
+ height: 9em;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 
 }
 
@@ -48,29 +55,29 @@ header
 header .nav
 
 {
-	
-	align-items: center;
-	margin-right: 5%;
-	width: 35%;
+ 
+ align-items: center;
+ margin-right: 5%;
+ width: 35%;
 }
 
 .nav ul {
 
-	list-style: none;
+ list-style: none;
 }
 
 .nav a 
 {
 
-	color: black;
-	text-decoration: none;
+ color: black;
+ text-decoration: none;
 
 }
 
 .nav .menu
 {
-	display: flex; 
-  	justify-content: space-around;
+ display: flex; 
+   justify-content: space-around;
 
 
   
@@ -78,12 +85,12 @@ header .nav
 
 header #logo
 {
-	padding-left: 10%;
+ padding-left: 10%;
 }
 
 section
 {
-	/*border: 2px black solid; */
+ /*border: 2px black solid; */
  color: #ffffff;
 display: flex;
 flex-direction: column;
@@ -96,95 +103,184 @@ width: 50%;
 button
 {
 
-	font-size: 17px;
-	font-family: sans-serif;
-	padding: 10px;
-	border:none;
-	background-color: #5DBCD2;
-	color: #fff;
-	border-radius: 2px;
-	cursor: pointer;
+ font-size: 17px;
+ font-family: sans-serif;
+ padding: 10px;
+ border:none;
+ background-color: #5DBCD2;
+ color: #fff;
+ border-radius: 2px;
+ cursor: pointer;
 
 }
 
 .titre
-{		font-family: 'FontAwesome';
-	color: #5DBCD2 ;
+{  font-family: 'FontAwesome';
+ color: #5DBCD2 ;
 }
 
 p {
-	    font-family:  sans-serif;
+     font-family:  sans-serif;
 }
 
 #services
 {
-		
-		color: black;
-		font-family: 'FontAwesome';
-		margin-top: 17em;
-		
+  
+  color: black;
+  font-family: 'FontAwesome';
+  margin-top: 17em;
+  
 } 
 
 #services h1
 {
-	
-	display: flex;
-	justify-content: center;
+ 
+ display: flex;
+ justify-content: center;
 
 }
 
 #services p
 {
 
-		display: flex;
-	justify-content: center;
-	margin-left: 5em;
+  display: flex;
+ justify-content: center;
+ margin-left: 5em;
 }
 
 .ux 
 {
 
-	display: flex;
-	justify-content: space-around;
-	margin-top: 10em;
+ display: flex;
+ justify-content: space-around;
+ margin-top: 10em;
 }
 
 .coco
 {
-	color: #5DBCD2;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+ color: #5DBCD2;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 
 
 }
 
-.coco i 
+.cercle1 i 
 {
+	
+  display: inline-block;
+  border-radius: 55%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 22px 18px 22px 18px;
 
-	border: 2px #5DBCD2 solid;
-	border-radius: 50%;
-	padding: 15px 15px 15px 15px;
-	margin: auto;
 }
 
-.cercle
+.cercle2 i 
 {
-	background-color: #5DBCD2;
-	width: 3px;
-	border-radius: 50%;
-	padding: 7px 5px 7px 7px;
-	display: flex;
-	justify-content: space-between;
-
+	
+  display: inline-block;
+  border-radius: 55%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 20px 20px 20px 20px;
 
 }
+.cercle3 i 
+{
+	
+  display: inline-block;
+  border-radius: 55%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 20px 18px 20px 18px;
+
+}
+
+
 
 #design i
 {
-	color: #5DBCD2;
+ color: #5DBCD2;
 
 }
+
+#myfooter{
+
+	font-family: 'FontAwesome';
+
+	margin-top: 5%;
+
+
+
+}
+
+#myfooter .menu2
+{
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+	margin: auto;
+}
+
+#myfooter ul
+{
+	list-style: none;
+	
+
+
+}
+
+.menu2
+{
+
+background-color: #E7F1FC;
+padding: 10px;
+border-radius: 2px;
+ 
+}
+
+
+.menu2 a 
+{
+
+	text-decoration: none;
+	color: black;
+	border:none;
+}
+
+.menu2 .carre
+{
+	background-color: #5DBCD2;
+	width: 100%;
+	padding: 10px;
+	
+
+}
+#portfolio
+{
+
+	width: 50%;
+	margin: auto;
+
+}
+
+#portfolio h1
+{
+	width: 24%;
+	margin: auto;
+
+	 
+
+}
+
+#portfolio p
+{
+
+
+	padding-top: 5%;
+	margin-left: 10%;
+}
+
+
 
 
 .photo
@@ -198,7 +294,7 @@ margin-right: 5%;
 
 .picture
 {
-	padding: 1%;
+ padding: 1%;
 }
 
 .photo2
@@ -210,20 +306,25 @@ margin-right: 5%;
 
 }
 
-
+#map
+{
+	
+}
 
 #contact
 {
-	font-family: 'FontAwesome';	
-	background-color: #E7F1FC;
+	font-family: 'sans-serif';	
+	background-color: rgba(240, 240, 240, 0.8);
+	/*background-color: #E7F1FC;*/
 	width: 22%;
-	height: 80%;
 	position: absolute;
-	right: 4%;
-	margin-top: 8%;
-	opacity:0.8;
+	right: 5%;
+	height: 82%;
+	margin-top: 4%;
+	border-radius: 1px;
 	
 }
+
 
 #sas
 {
@@ -235,48 +336,42 @@ margin-right: 5%;
 {
 	position: relative;
 	bottom: 10px;
-	opacity: 1;
+
+	
 }
 
 #opacity
 {
-
-	opacity: 1;
-}
-
-form
-{
-
-	padding: 00% 5% 00% 9% ;
+	padding: 00% 5% 00% 10% ;
 	position: relative;
 	bottom: 15px;
-	opacity: 1;
 
 }
 
 input 
 {
-	padding: 7px;
+	padding: 6px;
 	margin-top: 5%;
 	width: 90%;
-	background-color: #ffffff;
-	opacity: 1;
+	border: 1px grey solid;
+	border-radius: 5px;
 
 }
+
 
 textarea
 {
 	margin-top: 5%;
 	width: 94%;
-	height: 16em;
-	background-color: #ffffff;
-	opacity: 1;
+	height: 17em;
+
 
 }
 
+
 #send
 {
-	width: 50%;
+	width: auto;
 	font-size: 15px;
 	font-family: sans-serif;
 	padding: 10px;
@@ -286,15 +381,6 @@ textarea
 	border-radius: 2px;
 	cursor: pointer;
 	box-shadow: 0px 3px 3px   #32aecd;
-	opacity: 1;
+	
 	
 }
-
-#map
-{
-	
-	width: 100%;
-
-	margin-top: 5%;
-}
-
