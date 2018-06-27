@@ -123,6 +123,14 @@ header .nav
   
 }
 
+.menu a:hover
+{
+
+	border-top: 3px #5DBCD2 solid;
+	padding-top: 20px;
+
+}
+
 header #logo
 {
  padding-left: 10%;
@@ -133,6 +141,47 @@ header #logo
 	width: 50%;
 	position: absolute;
 	margin: 10% 00em 00em 10%;
+}
+
+
+#leftcircl
+
+{
+	background-color: black;
+	width: 40px;
+	height: 70px;
+	border-bottom-right-radius: 100px; 
+  	border-top-right-radius: 100px;
+	position: absolute;
+	top: 50%;
+	opacity: 0.7;
+
+}
+
+#leftcircl i 
+	{
+
+		font-size: 40px;
+		margin: 15px 0px 10px 5px;
+	}
+
+#rightcircl i
+{
+	font-size: 40px;
+	margin: 15px 5px 0 20px;
+}
+
+#rightcircl
+{
+	background-color: black;
+	width: 40px;
+	height: 70px;
+	border-bottom-left-radius: 100px; 
+  	border-top-left-radius: 100px;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	opacity: 0.7;
 }
 
 section
@@ -297,6 +346,8 @@ p {
 
 
 }
+
+
 .menu2 li 
 {
 	position: relative;
