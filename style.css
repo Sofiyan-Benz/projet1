@@ -32,12 +32,52 @@ body
 
 }
 
+.slideshow
+{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+
 .slider
 
 {
-	
+	width: calc(1600px * 2 );
+	animation: glisse 15s infinite;
 
 }
+
+.myslider
+{
+	float: left;
+}
+
+@keyframes glisse {
+
+	0% {
+		 transform: translateX(0);
+	}
+25% {
+		 transform: translateX(0);
+	}
+
+	50% {
+			transform: translateX(-1600px);
+	}
+	
+75% {
+			transform: translateX(-1600px);
+	}
+
+
+	100% {
+			transform: translateX(0);
+	}
+
+}
+
+
 
 header
 
@@ -88,17 +128,29 @@ header #logo
  padding-left: 10%;
 }
 
+.text-dacceuille
+{
+	width: 50%;
+	position: absolute;
+	margin: 10% 00em 00em 10%;
+}
+
 section
 {
- /*border: 2px black solid; */
+
  color: #ffffff;
 display: flex;
 flex-direction: column;
-margin: 10% 00em 00em 10em;
-width: 50%;
+width: 100%;
+
 }
 
-
+.box
+{
+	position: absolute;
+	bottom: 28%;
+	left: 11%;
+}
 
 button
 {
@@ -111,10 +163,11 @@ button
  color: #fff;
  border-radius: 2px;
  cursor: pointer;
-
 }
 
+
 .titre
+
 {  font-family: 'FontAwesome';
  color: #5DBCD2 ;
 }
@@ -128,7 +181,7 @@ p {
   
   color: black;
   font-family: 'FontAwesome';
-  margin-top: 17em;
+
   
 } 
 
@@ -203,61 +256,98 @@ p {
 
 }
 
-#myfooter{
-
+#myfooter
+{
 	font-family: 'FontAwesome';
-
 	margin-top: 5%;
-
-
-
 }
 
 #myfooter .menu2
 {
+	
 	display: flex;
-	justify-content: space-between;
-	width: 20%;
-	margin: auto;
+
+	justify-content: flex-start;
+	width: 50%;
+	height: auto;
+	padding: 0;
+	align-items: center;
+	margin-left: 38%;
+	
+
 }
 
 #myfooter ul
 {
 	list-style: none;
-	
-
 
 }
 
-.menu2
-{
-
-background-color: #E7F1FC;
-padding: 10px;
-border-radius: 2px;
- 
-}
 
 
 .menu2 a 
 {
-
+	text-align: center;
+	display: block;
+	width: 5em;
+	background-color:  #d9d9d9;
 	text-decoration: none;
 	color: black;
-	border:none;
-}
+	padding: 7px;
 
-.menu2 .carre
+
+}
+.menu2 li 
 {
-	background-color: #5DBCD2;
-	width: 100%;
-	padding: 10px;
-	
-
+	position: relative;
 }
+
+
+#border1
+
+{
+	border-radius: 5px 0px 0px 0px;
+}
+
+#border2
+
+{
+	border-radius: 0px 5px 0px 0px;
+}
+
+.carre:hover
+	 {
+
+		background-color: #5cadd3;
+		border-bottom: 3px solid #468cad;
+
+
+		
+
+	}
+
+li:hover .triangle
+
+{ 
+
+  display: block;
+  position: absolute;
+  top: 36px;
+  width: 0; 
+  height: 0; 
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #468cad;
+  left: 40%;
+  text-align: center;  
+
+
+  
+}
+
+
 #portfolio
 {
-
 	width: 50%;
 	margin: auto;
 
@@ -265,11 +355,8 @@ border-radius: 2px;
 
 #portfolio h1
 {
-	width: 24%;
+	width: 50%;
 	margin: auto;
-
-	 
-
 }
 
 #portfolio p
@@ -308,7 +395,14 @@ margin-right: 5%;
 
 #map
 {
+
 	
+	
+}
+
+#frame
+{
+
 }
 
 #contact
