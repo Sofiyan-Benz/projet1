@@ -83,11 +83,14 @@ header
 
 {
  
- width: 95%;
+ width: 100%;
  height: 9em;
  display: flex;
  justify-content: space-between;
  align-items: center;
+ position: fixed;
+ background-color: white;
+ z-index: 100;
 
 }
 
@@ -133,14 +136,14 @@ header .nav
 
 header #logo
 {
- padding-left: 10%;
+ padding-left: 9%;
 }
 
 .text-dacceuille
 {
 	width: 50%;
 	position: absolute;
-	margin: 10% 00em 00em 10%;
+	margin: 15% 00em 00em 10%;
 }
 
 
@@ -153,7 +156,7 @@ header #logo
 	border-bottom-right-radius: 100px; 
   	border-top-right-radius: 100px;
 	position: absolute;
-	top: 50%;
+	top: 44%;
 	opacity: 0.7;
 
 }
@@ -179,7 +182,7 @@ header #logo
 	border-bottom-left-radius: 100px; 
   	border-top-left-radius: 100px;
 	position: absolute;
-	top: 50%;
+	top: 44%;
 	right: 0%;
 	opacity: 0.7;
 }
@@ -197,8 +200,8 @@ width: 100%;
 .box
 {
 	position: absolute;
-	bottom: 28%;
-	left: 11%;
+	bottom: 40%;
+	left: 10%;
 }
 
 button
@@ -227,18 +230,44 @@ p {
 
 #services
 {
-  
+  margin-top: 10%;
   color: black;
   font-family: 'FontAwesome';
 
   
 } 
 
+.rondservice
+{
+	height: 18px;
+  width: 18px;
+  background-color: #5DBCD2;
+  border-radius: 50%;
+  position: relative;
+  left: 49%;
+
+
+}
+
+.ligneservice
+{
+
+  position: absolute;
+  left: 45%;
+  top: 48em;
+  width: 9%;
+  height: 0.8px;
+  background-color: black;
+  border: none;
+  opacity: 0.2;
+}
+
 #services h1
 {
  
  display: flex;
  justify-content: center;
+ font-size: 30px;
 
 }
 
@@ -255,7 +284,7 @@ p {
 
  display: flex;
  justify-content: space-around;
- margin-top: 10em;
+
 }
 
 .coco
@@ -297,6 +326,41 @@ p {
 
 }
 
+.coco .rondbleu1
+{
+	height: 18px;
+  width: 18px;
+  background-color: #5DBCD2;
+  border-radius: 50%;
+  position: relative;
+ left: 83%;
+  top: 50%;
+
+}
+
+.coco .rondbleu2
+{
+	height: 18px;
+  width: 18px;
+  background-color: #5DBCD2;
+  border-radius: 50%;
+  position: relative;
+ left: 88%;
+  top: 50%;
+
+}
+
+.coco .rondbleu3
+{
+	height: 18px;
+  width: 18px;
+  background-color: #5DBCD2;
+  border-radius: 50%;
+  position: relative;
+ left: 82%;
+  top: 53%;
+
+}
 
 
 #design i
@@ -305,13 +369,13 @@ p {
 
 }
 
-#myfooter
+#mysect
 {
 	font-family: 'FontAwesome';
 	margin-top: 5%;
 }
 
-#myfooter .menu2
+#mysect .menu2
 {
 	
 	display: flex;
@@ -326,7 +390,7 @@ p {
 
 }
 
-#myfooter ul
+#mysect ul
 {
 	list-style: none;
 
@@ -399,15 +463,45 @@ li:hover .triangle
 
 #portfolio
 {
-	width: 50%;
+	width: auto;
 	margin: auto;
 
 }
 
 #portfolio h1
 {
-	width: 50%;
-	margin: auto;
+	font-size: 30px;
+}
+
+.rondportfolio
+{
+  height: 18px;
+  width: 18px;
+  background-color: #5DBCD2;
+  border-radius: 50%;
+  position: relative;
+  left: 49%;
+
+}
+
+#portfolio .lignecercle
+{
+
+position: absolute;
+margin-left: 45%;
+top: 87.2em;
+
+  width: 9%;
+  height: 0.8px;
+  background-color: black;
+  border: none;
+  opacity: 0.2;
+}
+
+#portfolio h1
+{
+	display: flex;
+	justify-content: center;
 }
 
 #portfolio p
@@ -453,7 +547,12 @@ margin-right: 5%;
 
 #frame
 {
-
+	background-color: #87CEEB;
+}
+iframe
+{
+	opacity: 0.6;
+	z-index: -1;
 }
 
 #contact
@@ -467,6 +566,7 @@ margin-right: 5%;
 	height: 82%;
 	margin-top: 4%;
 	border-radius: 1px;
+	z-index: 1;
 	
 }
 
