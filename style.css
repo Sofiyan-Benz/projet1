@@ -19,6 +19,162 @@
   url('fonts/glyphicons-halflings-regular.ttf') format('ttf'),
   url('fonts/glyphicons-halflings-regular.woff') format('woff');
  }
+@media screen and (max-width: 850px)
+{
+	header{
+
+		display: flex;
+		flex-direction: column;
+		width: auto;
+	
+	}
+	
+}
+
+@media screen and (max-width: 850px)
+{
+	section .slideshow, #leftcircl, #rightcircl {
+
+			display: none;
+	}
+
+}
+
+@media screen and (max-width: 850px)
+{
+	section h1, p  {
+		
+		color: black;
+	}
+
+}
+
+@media screen and (max-width: 850px)
+{
+	section .text-dacceuille h1, p
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+	}
+	.box
+	{
+	
+		margin-bottom: 15%;
+	}
+ 
+
+}
+
+@media screen and (max-width: 850px)
+{
+	#services h1{
+
+		margin-top: 15em;
+		font-size: 3em;
+
+	
+	}
+
+	#main-feature
+	{
+		width: 50%;
+		height: 40%;
+		margin-left: 10%;
+		position: absolute;
+	}
+	.coco
+	{
+		
+		margin-top: 19em;
+		margin-left: 10%;
+	}
+	#design
+	{
+		margin-top: 19em;
+		margin-left: 10em;
+	}
+
+	.lignecercle
+	{
+		display: none;
+	}
+
+	#mysect #portfolio{
+
+		margin-top: 10%;
+	}
+	.photo, .photo2
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+
+}
+
+@media screen and (max-width: 850px)
+{  
+	#opacity #send
+	{
+	width: 9em;
+	height: 2em;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-right: 0;
+	padding-left: 0;
+
+	}
+
+	#opacity
+	{
+	
+		height: 85%;
+	}
+}
+
+@media screen and (max-width: 850px)
+{
+	.menu2 
+	{
+		position: relative;
+		right: 8em;
+	}
+
+}
+
+@media screen and (max-width: 850px)
+{
+	nav {
+		width: auto;
+		text-align: left;
+		height: 5em;
+		}
+
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+	}
+
+
+	nav a {
+		font-size: 15px;
+		padding: 8px;
+	}
+
+	nav .menu a:hover
+	{
+
+	border-top: none;
+	padding-top: none;
+
+	}
+	
+}
 
 body, html 
  {
@@ -37,6 +193,7 @@ body
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	top: 9em;
 
 }
 
@@ -91,6 +248,7 @@ header
  position: fixed;
  background-color: white;
  z-index: 100;
+ background-color: rgba(255, 255, 255, 0.8);
 
 }
 
@@ -119,7 +277,7 @@ header .nav
 
 .nav .menu
 {
- display: flex; 
+   display: flex; 
    justify-content: space-around;
 
 
@@ -135,6 +293,7 @@ header .nav
 }
 
 header #logo
+
 {
  padding-left: 9%;
 }
@@ -143,7 +302,7 @@ header #logo
 {
 	width: 50%;
 	position: absolute;
-	margin: 15% 00em 00em 10%;
+	margin: 20% 00em 00em 10%;
 }
 
 
@@ -156,7 +315,7 @@ header #logo
 	border-bottom-right-radius: 100px; 
   	border-top-right-radius: 100px;
 	position: absolute;
-	top: 44%;
+	top: 53%;
 	opacity: 0.7;
 
 }
@@ -182,7 +341,7 @@ header #logo
 	border-bottom-left-radius: 100px; 
   	border-top-left-radius: 100px;
 	position: absolute;
-	top: 44%;
+	top: 53%;
 	right: 0%;
 	opacity: 0.7;
 }
@@ -200,7 +359,7 @@ width: 100%;
 .box
 {
 	position: absolute;
-	bottom: 40%;
+	bottom: 30%;
 	left: 10%;
 }
 
@@ -277,6 +436,7 @@ p {
   display: flex;
  justify-content: center;
  margin-left: 5em;
+ text-align: center;
 }
 
 .ux 
@@ -293,9 +453,13 @@ p {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
-
-
 }
+
+#main-features
+{
+	width: 10%;
+}
+
 
 .cercle1 i 
 {
@@ -316,6 +480,7 @@ p {
   padding: 20px 20px 20px 20px;
 
 }
+
 .cercle3 i 
 {
 	
@@ -328,12 +493,12 @@ p {
 
 .coco .rondbleu1
 {
-	height: 18px;
+  height: 18px;
   width: 18px;
   background-color: #5DBCD2;
   border-radius: 50%;
   position: relative;
- left: 83%;
+  left: 83%;
   top: 50%;
 
 }
@@ -376,18 +541,16 @@ p {
 }
 
 #mysect .menu2
+
 {
 	
 	display: flex;
-
 	justify-content: flex-start;
 	width: 50%;
 	height: auto;
 	padding: 0;
 	align-items: center;
 	margin-left: 38%;
-	
-
 }
 
 #mysect ul
@@ -435,10 +598,6 @@ p {
 
 		background-color: #5cadd3;
 		border-bottom: 3px solid #468cad;
-
-
-		
-
 	}
 
 li:hover .triangle
@@ -456,8 +615,6 @@ li:hover .triangle
   left: 40%;
   text-align: center;  
 
-
-  
 }
 
 
@@ -487,10 +644,9 @@ li:hover .triangle
 #portfolio .lignecercle
 {
 
-position: absolute;
-margin-left: 45%;
-top: 87.2em;
-
+  position: absolute;
+  margin-left: 45%;
+  top: 83.7em;
   width: 9%;
   height: 0.8px;
   background-color: black;
@@ -506,13 +662,9 @@ top: 87.2em;
 
 #portfolio p
 {
-
-
-	padding-top: 5%;
-	margin-left: 10%;
+	text-align: center;
+	font-family: sans-serif;
 }
-
-
 
 
 .photo
@@ -521,6 +673,27 @@ display: flex;
 
 margin-left: 5%;
 margin-right: 5%;
+
+}
+.photo figure
+{
+	display: flex;
+
+}
+
+.photo figcaption
+{
+	background-color: black;
+	width: 90%;
+	height: 30%;
+	opacity: 0.5;
+	color: white;
+	position: relative;
+	top: 9.7em;
+	right: 21em;
+	text-align: center;
+	font-family: sans-serif;
+
 
 }
 
@@ -549,6 +722,7 @@ margin-right: 5%;
 {
 	background-color: #87CEEB;
 }
+
 iframe
 {
 	opacity: 0.6;
@@ -581,8 +755,7 @@ iframe
 {
 	position: relative;
 	bottom: 10px;
-
-	
+ 
 }
 
 #opacity
