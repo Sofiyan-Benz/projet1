@@ -710,6 +710,29 @@ width: 19%;
 	font-weight: bold;
 }
 
+#photo figure #oeil
+{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color:  	#43979C;
+	border-radius: 50%;
+	border: 3px  white solid; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 70%;
+	top: 45%;
+
+}
+
+#photo figure i
+{
+
+}
+
 #photo figcaption p
 {
 	padding-left: 5px;
