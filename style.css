@@ -84,9 +84,11 @@
 {
 
 }
- #design
+.menu2
  {
- 
+ display: flex;
+ justify-content: center;
+ align-items: center;
 
  }
 
@@ -135,7 +137,7 @@
  .menu2 
  {
   position: relative;
-  right: 8em;
+
  }
 
 }
