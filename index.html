@@ -1,257 +1,232 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8"/>
 
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" href="awesome/css/fontawesome.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--link responsiv-->
+
 	<title>WebAgency</title>
 
 </head>
 
 <body>
-
 	<header>
-	<img src="images/logo.png" id="logo">
+		<img src="images/logo.png" id="logo" alt="Logo WebAgency" /><!-- le logo WebAgency-->
 
-	<nav class="nav" role="navigation">
-
-		<ul class="menu">
-
-		<li><a href="#Accueil">Accueil</a></li>
-		<li><a href="#services">Services</a></li>
-		<li><a href="#portfolio">Portfolio</a></li>
-		<li><a href="#contact">Contact</a></li>
-		 </ul>
-
+		<nav class="nav" role="navigation"><!-- le menu header-->
+			<ul class="menu">
+				<li><a href="#Accueil">Accueil</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
 		</nav>
 
-
-
-		
 	</header>
 
-<div id="Accueil"></div>
+	<section id="Accueil">
 
-<section>
+		<div id="slideshow"><!-- le slider -- >
+			<div id="flesh">
+				<!-- les demi cercles avec les fleshs sur le slider -->
+				<div id="leftcircl"><i class="fas fa-angle-left"></i></div>
+				<!-- flesh a gauche -->
+				<div id="rightcircl"><i class="fas fa-angle-right"></i></div>
+				<!-- flesh a droite -->
+			</div>
 
-		<div class="slideshow">
+			<div class="slider"><!-- les 2 images de slider-->
+				<img class="myslider" src="images/slider/bg1.jpg" />
+				<img class="myslider" src="images/slider/bg2.jpg" />
+			</div>
 
-				<div class="slider">
-			
-						<img class="myslider" src="images/slider/bg1.jpg" />
-						<img class="myslider" src="images/slider/bg2.jpg" />
-	
-				</div>					
-		</div>
-
-		<div id="leftcircl"><i class="fas fa-angle-left"></i></div>
-		<div id="rightcircl"><i class="fas fa-angle-right"></i></div>
-
-<div class="text-dacceuille">
-
-		<h1> <span class="titre">WEBAGENCY</span> L'AGENCE DE TOUS</h1>
-
-			<h1>VOS PROJETS !</h1>
-
+			<div class="text-dacceuille"><!-- le text sur le slider-->
+				<h1> <span class="titre">WEBAGENCY</span> L'AGENCE DE TOUS</h1>
+				<h1> VOS PROJETS ! </h1>
 				<p>Vous avez un projet ? La WebAgency vous aide à les réaliser ! </p>
+				<button> Plus d'infos </button><!--le button bleu -->
+			</div>
 
-				<button > Plus d'infos</button>
-	</div>
+		</div>
+	</section>
 
+	<section id="services"><!-- la 2eme parti du site -->
 
-</section>
+		<h1>NOS SERVICES</h1>
 
-<div id="services">
+		<div id="englobe"><!-- la ligne avec le cercle bleu-->
+			<div class="ligneservice"> </div><!-- la ligne -->
+			<div class="rondservice"> </div><!-- la ligne -->
+		</div>
+		<p> Polyvalente et adaptive, notre agence est capable de répondre à toutes vos problématiques<br> et vous propose des services clés en main.</p>
 
-	<h1>NOS SERVICES</h1>
-	<div class="ligneservice"></div><div class="rondservice"></div>
-	<p> Polyvalente et adaptive, notre agence est capable de répondre à toutes vos problématiques<br>
-et vous propose des services clés en main.</p>
+		<div class="ux"><!-- elle contient limage du pc et les icon avec le text ux ui seo -->
 
-</div>
+			<img src="images/main-feature.png" id="main-feature"><!-- image pc-->
 
-
-<div class="ux"> 
-		
-			<img src="images/main-feature.png" id="main-feature">
-
-		<div id="blokdesign">
+			<div id="blokdesign"><!--contient les 3 icon de ux ui seo-->
 
 				<div class="coco">
-			
-					<div class="cercle3"><i class="fas fa-chart-line fa-2x" id="line"><div class="rondbleu1"></div></i></div> 
-			
-					<div class="cercle1"><i class="fas fa-cubes fa-2x" id="cube"><div class="rondbleu2"> </div></i></div> 
-			
-					<div class="cercle2"><i class="fas fa-chart-pie fa-2x" id="pie"><div class="rondbleu3"></div></i></div>	
+
+					<div class="cercle3">
+						<div class="rondbleu"></div>
+						<i class="fas fa-chart-line fa-2x" id="line"></i>
+					</div>
+
+					<div class="cercle1">
+						<div class="rondbleu"> </div>
+						<i class="fas fa-cubes fa-2x" id="cube"></i></div>
+
+					<div class="cercle2">
+						<div class="rondbleu"></div>
+						<i class="fas fa-chart-pie fa-2x" id="pie"></i></div>
 				</div>
-		
-			<div id="design"> 
-							<h2>UX design</h2>
-								 <p> Améliorez votre taux de conversion avec notre agence ux design</p>
-								<br>
+
+				<div id="design"><!--le  text a droite des icon ux ui seo-->
+					<h2>UX design</h2>
+					<p> Améliorez votre taux de conversion avec notre agence ux design</p>
 					<h2>UI design</h2>
-						<p> Vous aurez des sites internet plus accessibles et plus performants</p>
-							<br>
-						<h2>SEO</h2>
-							<p> Boostez votre positionnement avec notre agence SEO </p>
-		</div>
-	</div>
-
-</div>
-
-<div id="mysect">
-
-	<div id="portfolio">
-		
-		<h1>NOS PROJETS</h1>
-			<div class="lignecercle"></div> <div class="rondportfolio"></div>
-
-				<p> Notre agence digitale a réalisé de très nombreux projets dans de multiples domaines. </br>
-					Découvrez toutes nos références en détails et les témoignages de nos clients. </p>
-	</div>
-
-<ul class="menu2">
-
-
-		<li> <div class="triangle" ></div> <a class="carre" id="border1" href="#work">All Works</a> </li> 
-		<li><div class="triangle" ></div>  <a class="carre"  href="#creative">Creative</a></li>
-		<li><div class="triangle"></div>  <a class="carre" href="#corporate">Corporate</a></li>
-		<li><div class="triangle"></div>  <a class="carre" id="border2" href="#portfolio">Portfolio</a></li>
-		 </ul>
-		 
-</div>
-
-		 <div id="photo">
-		<figure>
-			<img class="picture" src="images/portfolio/01.jpg" >
-			<figcaption>
-					
-				<p><strong>Cirque de Zozor</strong><br>Le plus grand cirque d'Europe</p>
-			
-			</figcaption>
-				<i class="fas fa-eye" id="oeil"></i>
-		</figure>
-
-		<figure> 
-			<img class="picture" src="images/portfolio/02.jpg" >
-				<figcaption>
-				<p><strong>Costume power</strong>
-					<br> Déguisement sur mesure en ligne</p>
-				 </figcaption>
-				 <i class="fas fa-eye" id="oeil"></i>
-				</figure>
-
-		<figure>
-			<img class="picture" src="images/portfolio/03.jpg" >
-			<figcaption>
-				<p><strong>Pompadour</strong>
-					<br> Magasin de biscuit traditionnel</p>
-			</figcaption>
-			<i class="fas fa-eye" id="oeil"></i>
-		</figure>
-
-		<figure>
-
-			<img class="picture" src="images/portfolio/04.jpg" >
-
-			<figcaption>
-
-				<p><strong>Architechnique </strong><br> Faites votre plan en 3 clics</p>
-
-				 </figcaption>
-				 <i class="fas fa-eye" id="oeil"></i>
-				</figure>
-		</div>  
-
-
-
-			<div id="photo2">
-
-<figure> 
-	<img class="picture" src="images/portfolio/05.jpg" >
-	<figcaption>
-		<p><strong>Luxor Shopping</strong><br> Magasin de vetements de luxe</p>
-	</figcaption>
-	<i class="fas fa-eye" id="oeil"></i>
-</figure>
-
-				<figure> 
-	<img class="picture" src="images/portfolio/06.jpg" >
-	<figcaption>
-		<p><strong>Magic voyage</strong><br> Agence de voyage en ligne </p>
-	</figcaption>
-	<i class="fas fa-eye" id="oeil"></i>
-</figure>
-<figure> 
-	<img class="picture" src="images/portfolio/07.jpg" >
-	<figcaption>
-		<p><strong>Rocket protect </strong><br> L'Antivirus le plus performant </p>
-	</figcaption>
-	<i class="fas fa-eye" id="oeil"></i>
-</figure>
-<figure> 
-	<img class="picture" src="images/portfolio/08.jpg" >
-	<figcaption>
-		<p><strong>GraphDesign</strong> <br> Floqueur et designeur </p>
-	</figcaption>
-	<i class="fas fa-eye" id="oeil"></i>
-</figure>
+					<p> Vous aurez des sites internet plus accessibles et plus performants</p>
+					<h2>SEO</h2>
+					<p> Boostez votre positionnement avec notre agence SEO </p>
+				</div>
 			</div>
 
-
-
-
-
-
-
-</div>
-
-<div id="map">
-
-	
-
-	<div id="contact">
-
-		<div id="sas">
-			<h2>Contact Info</h2>
-			<p><strong>WebAgency SAS</strong></br>
-			25 Rue d'Hauteville 75010 Paris</br>
-			Tel : 01 02 03 04 05 </p>
 		</div>
-			
-			<div id="opacity"> 
 
-				<form method="post" action="traitement.php"> 
-			
-				<p>
-			   		<input type="text" name="pseudo" placeholder="Name" id="pseudo" required="" /> <br>
+	</section>
 
-			  		<input type="email" name="email" placeholder="Email" id="subject" /><br>
+	<section id="mysect"><!-- cette partie c'est le portfolio-->
+		<div id="portfolio">
+			<h1>NOS PROJETS</h1>
+			<div id="parenlin"><!-- la ligne avec le cercle bleu-->
+				<div class="lignecercle"></div><!-- la ligne -->
+				<div class="rondportfolio"></div><!-- le cercle-->
+			</div>
+			<p> Notre agence digitale a réalisé de très nombreux projets dans de multiples domaines.
+			</br>
+				Découvrez toutes nos références en détails et les témoignages de nos clients. </p>
+		</div>
 
-			 		<input type="text" name="subject" placeholder="Subject"  id="subject" /> <br>
-			    
-			 	  	<textarea placeholder="Message"> </textarea> <br> 
-			  	 	 
-			  	  	<input type="submit" value="Send Message" id="send" />
-			
-				</p>
+		<ul class="menu2"><!-- menu  de portfolio-->
+			<li>
+				<div class="triangle"></div> <a class="carre" id="border1" href="#work">All Works</a> </li>
+			<li>
+				<div class="triangle"></div> <a class="carre" href="#creative">Creative</a></li>
+			<li>
+				<div class="triangle"></div> <a class="carre" href="#corporate">Corporate</a></li>
+			<li>
+				<div class="triangle"></div> <a class="carre" id="border2" href="#portfolio">Portfolio</a></li>
+		</ul>
+
+		<div id="photo"><!-- les photo des projets/portfolio-->
+			<figure>
+				<img class="picture" src="images/portfolio/01.jpg">
+				<figcaption>
+					<p><strong>Cirque de Zozor</strong><br>Le plus grand cirque d'Europe</p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/02.jpg">
+				<figcaption>
+					<p><strong>Costume power</strong>
+						<br> Déguisement sur mesure en ligne</p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/03.jpg">
+				<figcaption>
+					<p><strong>Pompadour</strong>
+						<br> Magasin de biscuit traditionnel</p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/04.jpg">
+				<figcaption>
+					<p><strong>Architechnique </strong><br> Faites votre plan en 3 clics</p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+		</div>
+
+		<div id="photo2">
+			<figure>
+				<img class="picture" src="images/portfolio/05.jpg">
+				<figcaption>
+					<p><strong>Luxor Shopping</strong><br> Magasin de vetements de luxe</p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/06.jpg">
+				<figcaption>
+					<p><strong>Magic voyage</strong><br> Agence de voyage en ligne </p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/07.jpg">
+				<figcaption>
+					<p><strong>Rocket protect </strong><br> L'Antivirus le plus performant </p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+			<figure>
+				<img class="picture" src="images/portfolio/08.jpg">
+				<figcaption>
+					<p><strong>GraphDesign</strong> <br> Floqueur et designeur </p>
+				</figcaption>
+				<i class="fas fa-eye" id="oeil"></i>
+			</figure>
+		</div>
+	</section>
+
+	<footer id="map">
+		<div id="contact">
+			<div id="sas"><!-- Contact info-->
+				<h2>Contact Info</h2>
+				<p><strong>WebAgency SAS</strong></br>
+					25 Rue d'Hauteville 75010 Paris</br>
+					Tel : 01 02 03 04 05 </p>
+			</div>
+
+			<div id="opacity">
+
+				<form method="post" action="traitement.php">
+
+					<p>
+						<input type="text" name="pseudo" placeholder="Name" id="pseudo" required="" /> <br>
+
+						<input type="email" name="email" placeholder="Email" id="subject" /><br>
+
+						<input type="text" name="subject" placeholder="Subject" id="subject" /> <br>
+
+						<textarea placeholder="Message"> </textarea> <br>
+
+						<input type="submit" value="Send Message" id="send" />
+
+					</p>
 
 				</form>
-		
-			</div>
-	</div>
-			
-			<div id="frame">
 
-			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1529091475173" width="100%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
+		</div>
 
-</div>
+		<div id="frame">
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1529091475173"
+			  width="100%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+	</footer>
 
 
 
 </body>
+
 </html>
