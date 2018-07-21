@@ -13,7 +13,6 @@
   src: url('fonts/glyphicons-halflings-regular.eot') format('eot'), url('fonts/glyphicons-halflings-regular.svg') format('svg'), url('fonts/glyphicons-halflings-regular.ttf') format('ttf'), url('fonts/glyphicons-halflings-regular.woff') format('woff');
 }
 
-
 body, html {
   margin: 0;
   padding: 0;
@@ -23,83 +22,83 @@ body {
   font-family: 'FontAwesome';
 }
 
-@media screen and (max-width: 850px) /*  */
-{
-    header /*logo menu responsiv*/
+@media screen and (max-width: 850px)
+/*  */
+
+  {
+  header/*logo menu responsiv*/
     {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    }
-
-  #Accueil  #slideshow  #flesh/* desactiver les fleshs pour le responsiv*/
+  }
+  #Accueil #slideshow #flesh/* desactiver les fleshs pour le responsiv*/
     {
     display: none;
-    }
-#Accueil #slideshow .text-dacceuille
-{
-  width: 100%;
-  left: 0;
-  position: relative;
-  color: black;
-}
-#Accueil #slideshow .text-dacceuille h1
-{
-  width: 60%;
-}
-#Accueil #slideshow .text-dacceuille button /* baisser la tailel du button*/
-{
-  width: 100px;
-}
+  }
+  #Accueil #slideshow .text-dacceuille {
+    width: 100%;
+    left: 0;
+    position: relative;
+    color: black;
+    background-color: #e6e6e6;
 
-    .nav
+
+  }
+  #Accueil #slideshow .text-dacceuille h1 {
+    width: 60%;
+  }
+  #Accueil #slideshow .text-dacceuille button/* baisser la tailel du button*/
     {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-    nav ul {
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-
+    width: 100px;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   nav a {
     font-size: 15px;
     padding: 10px;
-
   }
   nav .menu a:hover/* desactiver les lignes bleu lorsque on survole le menu*/
-  {
-
-  border-top: none;
-  padding-top: none;
-
+    {
+    border-top: none;
+    padding-top: none;
   }
-  .ux /* la partie ui ux design*/
-  {
+  .ux/* la partie ui ux design*/
+    {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
   }
-.ux > img /*chaner la taille de limage pc pour le responsiv*/
-  {
-    width: 500px;
-
+  .ux>img/*chaner la taille de limage pc pour le responsiv*/
+    {
+    width: 100%;
   }
-  #map /* la partie contact responsiv*/
-  {
+  #map/* la partie contact responsiv*/
+    {
     display: flex;
     flex-direction: column;
   }
-  #map #contact /* changer de position */
-  {
+  #map #contact/* changer de position */
+    {
     position: relative;
-  }
+    background-color: rgba(240, 240, 240, 0.8);
 
+  }
 }
 
+@media screen and (max-width: 500px) {
+  #services h1 {
+    font-size: 20px;
+  }
+}
 
 #slideshow {
   width: 100%;
@@ -137,6 +136,7 @@ body {
 }
 
 header {
+  top: 0;
   width: 100%;
   height: 7em;
   display: flex;
@@ -147,8 +147,6 @@ header {
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.8);
 }
-
-
 
 header .nav {
   align-items: center;
@@ -176,8 +174,10 @@ header .nav {
 
 header #logo {}
 
-#slideshow .text-dacceuille /*le texte d'acceuille webagency*/
-{
+#slideshow .text-dacceuille
+/*le texte d'acceuille webagency*/
+
+  {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,12 +188,15 @@ header #logo {}
   color: #ffffff;
   font-family: Roboto, sans-serif;
 }
-.text-dacceuille h1
-{
+
+.text-dacceuille h1 {
   width: 25%;
 }
-#slideshow #flesh /*flesh du slider */
- {
+
+#slideshow #flesh
+/*flesh du slider */
+
+  {
   align-items: center;
   position: absolute;
   width: 100%;
@@ -204,8 +207,10 @@ header #logo {}
   height: 100%;
 }
 
-#leftcircl /* le demi cerlce a gauche du slider*/
-{
+#leftcircl
+/* le demi cerlce a gauche du slider*/
+
+  {
   background-color: black;
   width: 40px;
   height: 70px;
@@ -311,7 +316,6 @@ p {
 }
 
 #services p {
-  margin-left: 5em;
   text-align: center;
 }
 
@@ -322,7 +326,6 @@ p {
 
 #main-features {
   width: 10%;
-
 }
 
 #rassemble {
@@ -334,18 +337,20 @@ p {
   display: flex;
   justify-content: center;
   text-align: center;
+  width: 90%;
 }
 
+#coco
+/* logo text UX UI design SEO  */
 
-
-#coco /* logo text UX UI design SEO  */
- {
+  {
   color: #5DBCD2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-/*  margin-right: 5%;*/
+
 }
+
 .cercle {
   display: flex;
   justify-content: flex-end;
@@ -367,11 +372,12 @@ p {
   border-radius: 55%;
   box-shadow: 0px 0px 5px #888;
   padding: 22px 20px 22px 20px;
-      margin-right: 15px;
+  margin-right: 15px;
 }
-.cercle #pie{
-      width: 41.15px;
-      height: 32px;
+
+.cercle #pie {
+  width: 41.15px;
+  height: 32px;
 }
 
 #design i {
@@ -402,7 +408,6 @@ p {
 .menu2 a {
   text-align: center;
   display: block;
-  width: 5em;
   background-color: #d9d9d9;
   text-decoration: none;
   color: black;
@@ -439,7 +444,6 @@ li:hover .triangle {
   text-align: center;
 }
 
-
 #portfolio {}
 
 #portfolio h1 {
@@ -472,13 +476,16 @@ li:hover .triangle {
 }
 
 #portfolio h1 {
+
   display: flex;
   justify-content: center;
 }
 
 #portfolio p {
-  text-align: center;
-  font-family: sans-serif;
+  width: 95%;
+      text-align: center;
+      font-family: sans-serif;
+      padding: 0;
 }
 
 #photo {
@@ -605,7 +612,6 @@ figure {
 }
 
 #frame {
-
   width: 100%;
   position: relative;
   background-color: #87CEEB;
@@ -616,17 +622,12 @@ iframe {
   z-index: -1;
 }
 
-
-#map{
-
+#map {
   display: flex;
-align-items: center;
-
-
+  align-items: center;
 }
 
 #contact {
-
   font-family: 'sans-serif';
   background-color: rgba(240, 240, 240, 0.8);
   /*background-color: #E7F1FC;*/
@@ -638,15 +639,9 @@ align-items: center;
   z-index: 1;
   min-width: 250px;
   padding: 0% 2% 0% 3%;
-
 }
 
-
-#opacity {
-
-
-
-}
+#opacity {}
 
 input {
   padding: 6px;
@@ -657,7 +652,6 @@ input {
 }
 
 textarea {
-
   margin-top: 5%;
   width: 94%;
   height: 200px;
@@ -665,7 +659,6 @@ textarea {
 }
 
 #send {
-
   width: auto;
   font-size: 13px;
   font-family: sans-serif;
