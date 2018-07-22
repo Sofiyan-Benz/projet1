@@ -15,7 +15,7 @@
 
 body, html {
   margin: 0;
-  padding: 0;
+  padding: 0; /*retirer le decalage sur la page */
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 @media screen and (max-width: 850px)
-/*  */
+/*  responsiv*/
 
   {
   header/*logo menu responsiv*/
@@ -37,6 +37,7 @@ body {
     display: none;
   }
   #Accueil #slideshow .text-dacceuille {
+    /* text du slider webagency responsiv */
     width: 100%;
     left: 0;
     position: relative;
@@ -47,11 +48,13 @@ body {
   }
   #Accueil #slideshow .text-dacceuille h1 {
     width: 60%;
+    /* une width pour que le text sois bien aligné */
   }
-  #Accueil #slideshow .text-dacceuille button/* baisser la tailel du button*/
+  #Accueil #slideshow .text-dacceuille button/* baisser la taille du button*/
     {
     width: 100px;
   }
+  /* le menu responsiv */
   .nav {
     display: flex;
     justify-content: center;
@@ -66,10 +69,10 @@ body {
     font-size: 15px;
     padding: 10px;
   }
-  nav .menu a:hover/* desactiver les lignes bleu lorsque on survole le menu*/
+  nav .menu a:hover /* desactiver les lignes bleu lorsque on survole le menu*/
     {
     border-top: none;
-    padding-top: none;
+    padding-top: 0;
   }
   .ux/* la partie ui ux design*/
     {
@@ -77,7 +80,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .ux>img/*chaner la taille de limage pc pour le responsiv*/
+  .ux>img/*changer la taille de limage pc pour le responsiv*/
     {
     width: 100%;
   }
@@ -88,21 +91,32 @@ body {
   }
   #map #contact/* changer de position */
     {
-    position: relative;
-    background-color: rgba(240, 240, 240, 0.8);
+  position: relative;
+  right: 0;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 0;
 
+
+  }
+  #map #contact #sas, #opacity
+  /* decaller le texte et le formulaire de 25px */
+  {
+    margin-left: 25px;
   }
 }
 
 @media screen and (max-width: 500px) {
   #services h1 {
-    font-size: 20px;
+    /* taille responsiv */
+    font-size: 15px;
   }
 
 
 }
 
 #slideshow {
+  /* la devision qui contient le slider */
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -110,6 +124,7 @@ body {
 }
 
 .slider {
+
   width: 200%;
   animation: glisse 15s infinite;
 }
@@ -120,6 +135,7 @@ body {
 }
 
 @keyframes glisse {
+  /* slider */
   0% {
     transform: translateX(0);
   }
@@ -534,11 +550,11 @@ figure {
   font-weight: bold;
 }
 
-#photo figure:hover #oeil {
+#photo figure:hover .eyes {
   display: flex;
 }
 
-#photo figure #oeil {
+#photo figure .eyes {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -571,11 +587,11 @@ figure {
   width: 15%;
 }
 
-#photo2 figure:hover #oeil {
+#photo2 figure:hover .eyes {
   display: flex;
 }
 
-#photo2 figure #oeil {
+#photo2 figure .eyes {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -617,6 +633,7 @@ figure {
   padding-left: 5px;
 }
 
+
 #frame {
   width: 100%;
   position: relative;
@@ -624,6 +641,7 @@ figure {
 }
 
 iframe {
+  width: 100%;
   opacity: 0.4;
   z-index: -1;
 }
