@@ -361,6 +361,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-right: 50px;
 }
 
 .cercle {
@@ -667,7 +668,7 @@ figure {
 iframe {
   /* maps google */
   width: 100%;
-  opacity: 0.4;
+  opacity: 0.6;
   z-index: -1;
 }
 
