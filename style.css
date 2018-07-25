@@ -23,93 +23,6 @@ body {
   font-family: 'FontAwesome';
 }
 
-@media screen and (max-width: 850px)
-/*  responsiv*/
-
-  {
-  header/*logo menu responsiv*/
-    {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  #Accueil #slideshow #flesh/* desactiver les fleshs pour le responsiv*/
-    {
-    display: none;
-  }
-  #Accueil #slideshow .text-dacceuille {
-    /* text du slider webagency responsiv */
-    width: 100%;
-    left: 0;
-    position: relative;
-    color: black;
-    background-color: #e6e6e6;
-    padding-left: 25px;
-  }
-  #Accueil #slideshow .text-dacceuille h1 {
-    width: 60%;
-    /* une width pour que le text sois bien aligné */
-  }
-  #Accueil #slideshow .text-dacceuille button/* baisser la taille du button*/
-    {
-    width: 100px;
-  }
-  /* le menu responsiv */
-  .nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  nav a {
-    font-size: 15px;
-    padding: 10px;
-  }
-  nav .menu a:hover/* desactiver les lignes bleu lorsque on survole le menu*/
-    {
-    border-top: none;
-    padding-top: 0;
-  }
-  .ux/* la partie ui ux design*/
-    {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .ux>img/*changer la taille de limage pc pour le responsiv*/
-    {
-    width: 100%;
-  }
-  #map/* la partie contact responsiv*/
-    {
-    display: flex;
-    flex-direction: column;
-  }
-  #map #contact/* changer de position */
-    {
-    position: relative;
-    right: 0;
-    background-color: #f5f5f5;
-    width: 100%;
-    padding: 0;
-  }
-  #map #contact #sas, #opacity
-  /* decaller le texte et le formulaire de 25px */
-    {
-    margin-left: 25px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #services h1 {
-    /* taille responsiv */
-    font-size: 15px;
-  }
-}
 
 #slideshow {
   /* la devision qui contient le slider */
@@ -715,4 +628,93 @@ textarea {
   border-radius: 2px;
   cursor: pointer;
   box-shadow: 0px 3px 3px #32aecd;
+}
+
+/* les media screen toujours a la fin  */
+@media screen and (max-width: 850px)
+/*  responsiv*/
+
+  {
+  header/*logo menu responsiv*/
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #Accueil #slideshow #flesh/* desactiver les fleshs pour le responsiv*/
+    {
+    display: none;
+  }
+  #Accueil #slideshow .text-dacceuille {
+    /* text du slider webagency responsiv */
+    width: 100%;
+    left: 0;
+    position: relative;
+    color: black;
+    background-color: #e6e6e6;
+    padding-left: 25px;
+  }
+  #Accueil #slideshow .text-dacceuille h1 {
+    width: 60%;
+    /* une width pour que le text sois bien aligné */
+  }
+  #Accueil #slideshow .text-dacceuille button/* baisser la taille du button*/
+    {
+    width: 100px;
+  }
+  /* le menu responsiv */
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav a {
+    font-size: 15px;
+    padding: 10px;
+  }
+  nav .menu a:hover/* desactiver les lignes bleu lorsque on survole le menu*/
+    {
+    border-top: none;
+    padding-top: 0;
+  }
+  .ux/* la partie ui ux design*/
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ux>img/*changer la taille de limage pc pour le responsiv*/
+    {
+    width: 100%;
+  }
+  #map/* la partie contact responsiv*/
+    {
+    display: flex;
+    flex-direction: column;
+  }
+  #map #contact/* changer de position */
+    {
+    position: relative;
+    right: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 0;
+  }
+  #map #contact #sas, #opacity
+  /* decaller le texte et le formulaire de 25px */
+    {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #services h1 {
+    /* taille responsiv */
+    font-size: 15px;
+  }
 }
